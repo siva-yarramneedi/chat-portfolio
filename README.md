@@ -18,7 +18,7 @@ Welcome to my **interactive developer portfolio** — a unique chat-style webpag
 ## 🚀 Live Demo
 
 🔗 [Click here to view my portfolio] 
-https://your-username.github.io/your-repo-name](https://siva-yarramneedi.github.io/chat-portfolio/
+https://siva-yarramneedi.github.io/chat-portfolio/
 
 ---
 
