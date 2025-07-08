@@ -1,10 +1,9 @@
-
 const responses = {
   "skills": "My skills include Java, Spring Boot, Angular, HTML, CSS, JavaScript, MySQL, and Git.",
-  "projects": "I have worked on:\n1. Job Portal (Java + Spring Boot + Angular)\n2. Library Management System (Java + MySQL).",
+  "projects": "I have worked on:\\n1. Job Portal (Java + Spring Boot + Angular)\\n2. Library Management System (Java + MySQL).",
   "education": "I completed my B.Tech in Electrical and Electronics Engineering in 2023.",
   "experience": "I am a fresher with hands-on project experience.",
-  "default": "I'm here to answer questions about my skills, projects, or education. 😊"
+  "default": "You can ask about my skills, projects, education, or experience. 😊"
 };
 
 function sendMessage() {
@@ -36,3 +35,11 @@ function addMessage(sender, text) {
   chat.appendChild(msgDiv);
   chat.scrollTop = chat.scrollHeight;
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("userInput").addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      sendMessage();
+    }
+  });
+});

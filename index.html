@@ -1,21 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Siva Nagu - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Siva Nagu | Developer Portfolio</title>
+  <link rel="stylesheet" href="./src/style.css" />
 </head>
-<body>
-  <div class="chat-container">
-    <div class="chat-header">👋 Hi, I'm Siva Yarramneedi! Ask me about my skills, projects, or education.</div>
-    <div class="chat-messages" id="chatMessages"></div>
-    <div class="chat-input">
-      <input type="text" id="userInput" placeholder="Ask me something..." />
-      <button onclick="sendMessage()">Send</button>
+<body >
+  <header>
+    <h1>👨‍💻 Siva Yarramneedi</h1>
+    <p>Welcome to my interactive portfolio. Ask me anything about my skills, projects, or education!</p>
+  </header>
+
+  <section class="suggestions">
+    <strong>💡 Try asking:</strong>
+    <ul>
+      <li>What are your skills?</li>
+      <li>Tell me about your projects</li>
+      <li>Where did you study?</li>
+      <li>Do you have any experience?</li>
+    </ul>
+  </section>
+
+  <main >
+    <div class="chat-container">
+      <div class="chat-messages" id="chatMessages"></div>
+      <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Type your question..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
     </div>
-  </div>
-  <script src="script.js"></script>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Siva Yarramneedi | Built with 💻 HTML, CSS & JS</p>
+  </footer>
+
+  <script src="./src/script.js"></script>
 </body>
 </html>
