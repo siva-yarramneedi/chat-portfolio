@@ -15,6 +15,20 @@ Welcome to my **interactive developer portfolio** — a unique chat-style webpag
 - 🎨 Clean, modern UI
 
 ---
+## 🚀 Live Demo
+
+🔗 [Click here to view my portfolio]([https://your-username.github.io/your-repo-name](https://siva-yarramneedi.github.io/chat-portfolio/))
+
+---
+
+## 💡 How It Works
+
+When a user types something like:
+- **“What are your skills?”**
+- **“Tell me about your projects”**
+- **“Where did you study?”**
+
+The system checks for keywords (like "skills", "projects", "education") and replies with a predefined answer using JavaScript — no AI needed!
 
 ## 🛠️ Tech Stack
 
